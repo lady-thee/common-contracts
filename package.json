@@ -1,0 +1,24 @@
+{
+  "name": "@lady-thee/common-contracts",
+  "version": "1.0.0",
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com"
+  },
+  "description": "Shared DTOs and contracts",
+  "main": "dist/index.js",
+  "types": "dist/indx.t.s",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "dependencies": {
+    "@nestjs/swagger": "^11.2.0",
+    "class-validator": "^0.14.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

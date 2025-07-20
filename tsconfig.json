@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2021",
+    "declaration": true,                 // CRITICAL: Creates .d.ts files for type info
+    "outDir": "./dist",                  // CRITICAL: Puts compiled JS into a "dist" folder
+    "rootDir": "./src",                  // CRITICAL: Tells compiler where your TS source is
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "emitDecoratorMetadata": true,       // Needed for NestJS/class-validator decorators
+    "experimentalDecorators": true     // Needed for decorators
+  },
+  "include": ["src/**/*"] // Tells the compiler to only look at files in the src folder
+}
